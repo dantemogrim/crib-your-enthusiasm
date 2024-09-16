@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Junicode Bold";
+  src: url("/junicode-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("/archivo-var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Archivo Italic";
+  src: url("/archivo-italic-var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/jetbrains-mono-reg.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mondwest";
+  src: url("/mondwest-regular.woff2") format("woff2");
+}
