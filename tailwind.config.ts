@@ -10,6 +10,7 @@ export default {
         'juni-italic': ['Junicode Italic', 'Helvetica', 'Arial'],
         archivo: ['Archivo', 'Helvetica', 'Arial'],
         mondwest: ['Mondwest', 'Helvetica', 'Arial'],
+        silk: ['Silkscreen', 'Helvetica', 'Arial'],
       },
     },
   },

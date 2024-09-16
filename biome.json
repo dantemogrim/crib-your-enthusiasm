@@ -7,11 +7,13 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": []
+		"ignore": ["server.ts", "*.spec.ts"]
 	},
 	"formatter": {
 		"enabled": true,
-		"indentStyle": "tab"
+		"indentStyle": "tab",
+		"lineEnding": "lf",
+		"lineWidth": 80
 	},
 	"organizeImports": {
 		"enabled": true
@@ -19,7 +21,10 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
+			"recommended": true,
+			"style": {
+				"useImportType": "off"
+			}
 		}
 	},
 	"javascript": {
