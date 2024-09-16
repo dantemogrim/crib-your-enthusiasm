@@ -1,27 +1,53 @@
-# CrazyCoolCribs
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3dka3k1N2xubm5zZ2xqamU4NzgyMGdiMnI1ZWc2cTZnMmx5c2dwbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5wWf7GMbT1ZUGTDdTqM/giphy-downsized.gif" alt="Comedian Tim Heidecker is waving for you and whispering: It's free real-estate.">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+# Crazy Cool Cribs
 
-## Development server
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+- TODO - link to Netlify.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 💾 Installation
 
-## Code scaffolding
+📋 **Requirements:**
+- [Node.js](https://nodejs.org/en) - Determine the exact version from this project's `.nvmrc`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- `cd` into the root directory, then:
 
-## Build
+```shell
+# Install frontend dependencies.
+$ npm i
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Build the project.
+# Artifacts will be stored in `dist/`.
+$ ng build
 
-## Running unit tests
+# Start a dev server.
+# The app will automatically reload if you change any of the source files.
+$ ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- From your browser, navigate to `http://localhost:4200/`.
 
-## Running end-to-end tests
+## 🛠️ Usage
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```shell
+# Code scaffolding.
+# To generate a new component, run:
+$ ng generate component <component-name>
+# You can also use any of the following:
+# $ ng generate directive|pipe|service|class|guard|interface|enum|module <name>
 
-## Further help
+# To run unit tests via Karma.
+# URL: https://karma-runner.github.io
+$ ng test
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# To run end-to-end tests.
+# To use this command, you need to first add a package that implements end-to-end testing capabilities.
+$ ng e2e
+
+# To list the all available options of the Angular CLI, run:
+$ ng help
+```
+
+## 🎫 License
+
+[![License: MIT](https://cdn.prod.website-files.com/5e0f1144930a8bc8aace526c/65dd9eb5aaca434fac4f1c34_License-MIT-blue.svg)](/LICENSE)
