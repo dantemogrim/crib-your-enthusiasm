@@ -2,27 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  margin: 0 auto;
+  max-width: 56rem;
+}
+
 @font-face {
   font-family: "Junicode Bold";
-  src: url("/junicode-bold.woff2") format("woff2");
+  src: url("/fonts/junicode-bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Archivo";
-  src: url("/archivo-var.woff2") format("woff2");
+  src: url("/fonts/archivo-var.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Archivo Italic";
-  src: url("/archivo-italic-var.woff2") format("woff2");
+  src: url("/fonts/archivo-italic-var.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "JetBrains Mono";
-  src: url("/jetbrains-mono-reg.woff2") format("woff2");
+  src: url("/fonts/jetbrains-mono-reg.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Mondwest";
-  src: url("/mondwest-regular.woff2") format("woff2");
+  src: url("/fonts/mondwest-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Silkscreen";
+  src: url("/fonts/silkscreen-reg.woff2") format("woff2");
 }
