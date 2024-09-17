@@ -15,4 +15,8 @@ export class CribService {
   getCribById(id: number): Crib | undefined {
     return this.cribCollection.find((crib) => crib.id === id);
   }
+
+  submitGuess(guess: string) {
+    console.log('Received guess: ', guess);
+  }
 }
