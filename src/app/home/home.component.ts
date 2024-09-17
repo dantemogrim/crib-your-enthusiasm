@@ -1,9 +1,9 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { Crib, cribData } from '../crib/crib';
+import { Crib } from '../crib/crib';
 import { CribComponent } from '../crib/crib.component';
-import { CribService } from '../services/crib.service';
+import cribData from '../crib/cribs.json';
 
 @Component({
   selector: 'app-home',
@@ -31,11 +31,5 @@ import { CribService } from '../services/crib.service';
   `,
 })
 export class HomeComponent {
-  cribService: CribService = inject(CribService);
-  constructor() {
-    this.cribList = this.cribService.getAllCribs();
-  }
-
-  // Will be an array of the Crib interface.
-  cribList: Crib[] = [...cribData];
+  cribList: Crib[] = cribData;
 }

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Crib, cribData } from '../crib/crib';
+import { Crib } from '../crib/crib';
+import cribData from '../crib/cribs.json';
 
 @Injectable({
   providedIn: 'root',

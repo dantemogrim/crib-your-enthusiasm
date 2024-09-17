@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
       alt="logo"
       aria-hidden="true"
     />
-    <h1 class="font-silk text-4xl px-2">Crazy Cool Cribs</h1>
+    <h1 class="font-silk text-4xl px-2">Curb Your Crib Enthusiasm</h1>
   </header>`,
 })
 export class HeaderComponent {}
