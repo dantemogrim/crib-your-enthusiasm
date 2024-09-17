@@ -20,9 +20,14 @@
 	},
 	"linter": {
 		"enabled": true,
+
 		"rules": {
 			"recommended": true,
+			"complexity": {
+				"useLiteralKeys": "off"
+			},
 			"style": {
+				"noUnusedTemplateLiteral": "off",
 				"useImportType": "off"
 			}
 		}
