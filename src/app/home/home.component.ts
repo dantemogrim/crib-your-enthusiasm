@@ -11,21 +11,23 @@ import cribData from '../crib/cribs.json';
   imports: [CommonModule, CribComponent],
   template: `
     <section>
-      <form class="flex justify-start items-center gap-2">
+      <form class="flex justify-center items-center gap-2">
         <input
-          class="py-1 rounded-md"
+          class="rounded-full border border-gray-900 bg-transparent py-1 px-6"
           type="text"
-          placeholder="Filter by city"
+          placeholder="filter by city"
         />
         <button
           class="align-middle select-none font-text-center rounded-full border border-gray-900 py-1 px-6"
           type="button"
         >
-          Search
+          search
         </button>
       </form>
     </section>
-    <section class="results">
+    <section
+      class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
+    >
       <app-crib *ngFor="let crib of cribList" [crib]="crib"></app-crib>
     </section>
   `,

@@ -9,15 +9,21 @@ import { Crib } from './crib';
   standalone: true,
   imports: [CommonModule, RouterModule],
   template: `<section
-    class="flex flex-col bg-green-300 justify-center items-start py-5 my-10 rounded-xl"
+    class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
   >
-    <img class="" [src]="crib.photo" [alt]="crib.alt" />
-    <h2 class="text-xl">{{ crib.address }}</h2>
-    <div class="flex">
-      <img alt="Pin" src="/icons/pin_mat-000-24.svg" />
-      <p>{{ crib.city }}, {{ crib.state }}</p>
+    <img
+      class="h-80 w-72 object-cover rounded-t-xl"
+      [src]="crib.photo"
+      [alt]="crib.alt"
+    />
+    <div class="px-4 py-3 w-72">
+      <h2 class="text-xl">{{ crib.address }}</h2>
+      <div class="flex">
+        <img alt="Pin" src="/icons/pin_mat-000-24.svg" />
+        <p>{{ crib.city }}, {{ crib.state }}</p>
+      </div>
+      <a [routerLink]="['/details', crib.id]">Read more</a>
     </div>
-    <a [routerLink]="['/details', crib.id]">Read more</a>
   </section>`,
 })
 export class CribComponent {

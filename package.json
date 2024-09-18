@@ -1,5 +1,5 @@
 {
-	"name": "crazy-cool-cribs",
+	"name": "crib-your-enthusiasm",
 	"version": "0.0.0",
 	"scripts": {
 		"ng": "ng",
@@ -7,7 +7,7 @@
 		"start": "ng serve",
 		"test": "ng test",
 		"watch": "ng build --watch --configuration development",
-		"serve:ssr:crazy-cool-cribs": "node dist/crazy-cool-cribs/server/server.mjs",
+		"serve:ssr:crib-your-enthusiasm": "node dist/crib-your-enthusiasm/server/server.mjs",
 		"biome:check": "biome check"
 	},
 	"private": true,

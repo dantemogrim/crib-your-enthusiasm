@@ -1,9 +1,10 @@
-<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3dka3k1N2xubm5zZ2xqamU4NzgyMGdiMnI1ZWc2cTZnMmx5c2dwbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5wWf7GMbT1ZUGTDdTqM/giphy-downsized.gif" alt="Comedian Tim Heidecker is waving for you and whispering: It's free real-estate.">
+<img style="max-width:1000px" width="100%" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXhoNmRpM2s5c3Q2b3pvMDk5YmN3NjJmZ2Q3Z2p2cDFqdnpjYTd6ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WrJ8x0niiblWEoo7hE/giphy-downsized.gif" alt="Larry David saying: 'pretty, pretty, pretty, pretty good'">
 
-# Crazy Cool Cribs
+# Crib Your Enthusiasm
 
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
 - TODO - link to Netlify.
+- TODO: https://angular.dev/tutorials/first-app/12-forms / 14
 
 ## 💾 Installation
 
@@ -47,6 +48,11 @@ $ ng e2e
 # To list the all available options of the Angular CLI, run:
 $ ng help
 ```
+
+### Config
+
+- Uses Biome as the formatter and linter.
+- Some rules and recommendations have been deactivated due to unexpected behavior.
 
 ## 🎫 License
 

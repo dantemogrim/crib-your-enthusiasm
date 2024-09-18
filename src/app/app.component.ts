@@ -20,5 +20,5 @@ import { FooterComponent } from './footer/footer.component';
   `,
 })
 export class AppComponent {
-  title = 'crazy-cool-cribs';
+  title = 'crib-your-enthusiasm';
 }
