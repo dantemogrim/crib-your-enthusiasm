@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, Location } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 import { Crib } from './crib';
@@ -17,12 +17,16 @@ import { Crib } from './crib';
       [alt]="crib.alt"
     />
     <div class="px-4 py-3 w-72">
-      <h2 class="text-xl">{{ crib.address }}</h2>
-      <div class="flex">
-        <img alt="Pin" src="/icons/pin_mat-000-24.svg" />
-        <p>{{ crib.city }}, {{ crib.state }}</p>
+      <h2 class="text-xl mb-4">{{ crib.address }}</h2>
+      <div class="flex justify-between">
+        <div class="flex">
+          <img alt="Pin" src="/icons/pin_mat-000-24.svg" />
+          <p>{{ crib.city }}, {{ crib.state }}</p>
+        </div>
+        <a [routerLink]="['/details', crib.id]">
+          <img alt="Arrow" src="/icons/arrow-forward_mat-000-24.svg" />
+        </a>
       </div>
-      <a [routerLink]="['/details', crib.id]">Read more</a>
     </div>
   </section>`,
 })

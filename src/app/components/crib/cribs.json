@@ -68,7 +68,7 @@
 	{
 		"id": 6,
 		"address": "1155 103rd St.",
-		"city": "Harbor Island, Miami Beach",
+		"city": "Miami Beach",
 		"state": "FL",
 		"photo": "/photos/dex.jpg",
 		"alt": "An apartment building set near the waterfront.",
@@ -79,7 +79,7 @@
 	{
 		"id": 7,
 		"address": "251 N. Bristol Ave.",
-		"city": "LA",
+		"city": "Los Angeles",
 		"state": "CA",
 		"photo": "/photos/fpb.jpg",
 		"alt": "A mansion with white, colonial structure.",
@@ -111,11 +111,11 @@
 	},
 	{
 		"id": 10,
-		"address": "6802 Gaines Ferry Rd.",
-		"city": "Flowery Branch",
-		"state": "GA",
+		"address": "671 Lincoln Ave.",
+		"city": "Winnetka",
+		"state": "IL",
 		"photo": "/photos/hom.jpg",
-		"alt": "The Byrde House.",
+		"alt": "A big, brick mansion.",
 		"knownFrom": "Home Alone",
 		"wifi": true,
 		"laundry": true

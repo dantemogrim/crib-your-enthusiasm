@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './layouts/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -12,9 +12,7 @@ import { FooterComponent } from './footer/footer.component';
   template: `
     <app-header></app-header>
     <main>
-      <section class="content">
-        <router-outlet></router-outlet>
-      </section>
+      <router-outlet></router-outlet>
     </main>
     <app-footer></app-footer>
   `,
