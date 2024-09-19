@@ -9,6 +9,7 @@
 ## 💾 Installation
 
 📋 **Requirements:**
+
 - [Node.js](https://nodejs.org/en) - Determine the exact version from this project's `.nvmrc`.
 
 - `cd` into the root directory, then:
@@ -51,8 +52,8 @@ $ ng help
 
 ### Config
 
-- Uses Biome as the formatter and linter.
-- Some rules and recommendations have been deactivated due to unexpected behavior.
+- Uses [Biome](https://biomejs.dev/) as the formatter & linter.
+- _Some rules and recommendations have been deactivated due to unexpected behaviors._
 
 ## 🎫 License
 
