@@ -16,7 +16,9 @@ export class CribService {
     return this.cribCollection.find((crib) => crib.id === id);
   }
 
-  submitGuess(guess: string) {
-    console.log('Received guess: ', guess);
+  submitApplication(firstName: string, lastName: string, email: string) {
+    console.log(
+      `Homes application received: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`
+    );
   }
 }
