@@ -13,7 +13,7 @@ import { FormComponent } from '../../components/form/form.component';
   template: `<div
     class="mx-auto w-fit flex flex-col justify-center items-center"
   >
-    <article class="mt-10 mb-5 w-96 bg-white shadow-md rounded-xl">
+    <article class="mt-10 mb-5 w-96 shadow-md rounded-xl bg-red-100/50">
       <img
         class="w-96 h-96 object-cover rounded-t-xl"
         [src]="cribId?.photo"

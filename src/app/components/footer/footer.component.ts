@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `<footer class="flex justify-center items-center py-5 md:py-10">
-    <p class="pt-3 italic">© {{ year }}</p>
+    <p class="pt-3 italic text-blue-500">© {{ year }}</p>
   </footer>`,
 })
 export class FooterComponent {
