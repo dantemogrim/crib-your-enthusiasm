@@ -2,9 +2,8 @@
 
 # Crib Your Enthusiasm
 
+- To view this project live, visit: [crib-your-enthusiasm.netlify.app](https://crib-your-enthusiasm.netlify.app/)
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
-- TODO - link to Netlify.
-- TODO: https://angular.dev/tutorials/first-app/12-forms / 14
 
 ## 💾 Installation
 

@@ -2,14 +2,13 @@ import { ActivatedRoute } from '@angular/router';
 import { CommonModule, Location } from '@angular/common';
 import { Component, inject } from '@angular/core';
 
-import { Crib } from '../../components/crib/crib';
+import { Crib } from '../../components/crib/crib.types';
 import { CribService } from '../../components/crib/crib.service';
-import { FormComponent } from '../../components/form/form.component';
 
 @Component({
   selector: 'app-details',
   standalone: true,
-  imports: [CommonModule, FormComponent],
+  imports: [CommonModule],
   template: `<div
     class="mx-auto w-fit flex flex-col justify-center items-center"
   >
@@ -35,7 +34,7 @@ import { FormComponent } from '../../components/form/form.component';
         </div>
       </div>
     </article>
-    <app-form></app-form>
+    <!-- TODO - component: link (NOTE! What to do with "see more"?) -->
     <button class="my-4" (click)="goBack()">
       <img alt="Arrow back" src="/icons/arrow-back_mat-000-24.svg" />
     </button>

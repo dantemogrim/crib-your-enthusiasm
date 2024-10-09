@@ -45,12 +45,12 @@
 	},
 	{
 		"id": 4,
-		"address": "2302 W. 25th St.",
-		"city": "Los Angeles",
+		"address": "6205 Ocean Breeze Dr.",
+		"city": "Malibu",
 		"state": "CA",
-		"photo": "/photos/sfu.jpeg",
-		"alt": "The Auguste R. Marquis Residence.",
-		"knownFrom": "Six Feet Under",
+		"photo": "/photos/ora.jpg",
+		"alt": "A large, modern house with a big pool and colonial-style architecture.",
+		"knownFrom": "The O.C.",
 		"wifi": true,
 		"laundry": true
 	},
@@ -137,8 +137,8 @@
 		"city": "Caldwell",
 		"state": "NJ",
 		"photo": "/photos/sop.webp",
-		"alt": "TODO",
-		"knownFrom": "Sopranos",
+		"alt": "A home with a classic colonial-style architecture.",
+		"knownFrom": "The Sopranos",
 		"wifi": true,
 		"laundry": true
 	},
@@ -148,7 +148,7 @@
 		"city": "Los Angeles",
 		"state": "CA",
 		"photo": "/photos/new.webp",
-		"alt": "TODO",
+		"alt": "An industrial-style apartment building",
 		"knownFrom": "New Girl",
 		"wifi": true,
 		"laundry": true

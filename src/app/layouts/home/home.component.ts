@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { Crib } from '../../components/crib/crib';
+import { Crib } from '../../components/crib/crib.types';
 import { CribComponent } from '../../components/crib/crib.component';
 import cribData from '../../components/crib/cribs.json';
 import { SearchComponent } from '../../components/search/search.component';

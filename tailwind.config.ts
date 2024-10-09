@@ -9,6 +9,7 @@ export default {
         'juni-bold': ['Junicode Bold', 'Helvetica', 'Arial'],
         'juni-italic': ['Junicode Italic', 'Helvetica', 'Arial'],
         archivo: ['Archivo', 'Helvetica', 'Arial'],
+        franklin: ['Franklin Gothic Medium', 'Helvetica', 'Arial'],
         mondwest: ['Mondwest', 'Helvetica', 'Arial'],
         silk: ['Silkscreen', 'Helvetica', 'Arial'],
       },

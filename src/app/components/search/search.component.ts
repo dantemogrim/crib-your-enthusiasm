@@ -6,7 +6,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
   imports: [],
   template: `
     <div
-      class="p-3 overflow-hidden w-12 h-12 hover:w-80 bg-blue-500 shadow-sm rounded-full flex group items-center hover:duration-300 duration-300"
+      class="p-3 overflow-hidden w-12 h-12 hover:w-80 bg-green-500 shadow-sm rounded-full flex group items-center hover:duration-300 duration-300"
     >
       <div class="flex items-center justify-center fill-white">
         <svg

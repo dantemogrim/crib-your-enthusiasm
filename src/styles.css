@@ -8,6 +8,11 @@ html {
 }
 
 @font-face {
+  font-family: "Franklin Gothic Heavy Regular";
+  src: url("/fonts/franklin-gothic-heavy-regular.woff2") format("woff2");
+}
+
+@font-face {
   font-family: "Junicode Bold";
   src: url("/fonts/junicode-bold.woff2") format("woff2");
 }
