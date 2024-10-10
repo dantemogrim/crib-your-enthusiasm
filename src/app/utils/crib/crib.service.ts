@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Crib } from './crib.types';
-import cribData from '../crib/cribs.json';
+import cribData from './cribs.json';
 
 @Injectable({
   providedIn: 'root',
@@ -17,8 +17,6 @@ export class CribService {
   }
 
   submitApplication(firstName: string, lastName: string, email: string) {
-    console.log(
-      `Homes application received: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`
-    );
+    console.log(`Hello, world!`);
   }
 }

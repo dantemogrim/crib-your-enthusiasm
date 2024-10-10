@@ -2,8 +2,8 @@ import { ActivatedRoute } from '@angular/router';
 import { CommonModule, Location } from '@angular/common';
 import { Component, inject } from '@angular/core';
 
-import { Crib } from '../../components/crib/crib.types';
-import { CribService } from '../../components/crib/crib.service';
+import { Crib } from '../../utils/crib/crib.types';
+import { CribService } from '../../utils/crib/crib.service';
 
 @Component({
   selector: 'app-details',

@@ -1,25 +1,25 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { Crib } from '../../components/crib/crib.types';
-import { CribComponent } from '../../components/crib/crib.component';
-import cribData from '../../components/crib/cribs.json';
+import { CardComponent } from '../../components/card/card.component';
+import { Crib } from '../../utils/crib/crib.types';
 import { SearchComponent } from '../../components/search/search.component';
+import cribData from '../../utils/crib/cribs.json';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, SearchComponent, CribComponent],
+  imports: [CommonModule, SearchComponent, CardComponent],
   template: `
     <div class="flex flex-col justify-center items-center">
       <app-search (searchEvent)="filterResults($event)"></app-search>
       <section
-        class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
+        class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-14 my-10"
       >
-        <app-crib
+        <app-card
           *ngFor="let crib of filteredCribList"
           [crib]="crib"
-        ></app-crib>
+        ></app-card>
       </section>
     </div>
   `,
