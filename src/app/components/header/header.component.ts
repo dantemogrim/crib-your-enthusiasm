@@ -7,28 +7,26 @@ import { CalloutComponent } from '../callout/callout.component';
   standalone: true,
   imports: [RouterLink, CalloutComponent],
   template: ` <header class="flex flex-col items-center py-5 md:pb-10">
-    <a [routerLink]="['/']" class="flex items-center">
+    <a [routerLink]="['/']" class="flex justify-center items-center mb-2">
       <!-- <img
         class="w-20"
         src="/photos/larry.png"
         alt="Larry David's face as pixel art"
         aria-hidden="true"
       /> -->
-      <h1
-        class="font-franklin font-black text-4xl md:text-5xl mb-4 text-amber-500"
-      >
+      <h1 class="font-clarendon font-black text-3xl sm:text-5xl text-amber-500">
         Crib Your Enthusiasm
       </h1>
     </a>
-    <h2 class="text-lg md:text-xl italic mb-2">
+    <h2 class="text-xs sm:text-lg italic mb-2">
       Iconic houses have never looked this good.
     </h2>
     <app-callout>
       <h3 class="text-md">
-        Can you guess which house belongs to which movie/series?
+        Are you able to figure out which house belongs to which movie/series?
       </h3>
       <h4 class="font-bold text-sm">
-        👁️ Tap on a listing's eye icon to reveal the answer. 👁️
+        👁️ Tap an "eye-con" to reveal the answer. 👁️
       </h4>
     </app-callout>
   </header>`,

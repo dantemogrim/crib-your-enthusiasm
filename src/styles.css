@@ -8,6 +8,16 @@ html {
 }
 
 @font-face {
+  font-family: "Cheyenne";
+  src: url("/fonts/cheyenne-sans.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Clarendon";
+  src: url("/fonts/clarendon-regular.woff2") format("woff2");
+}
+
+@font-face {
   font-family: "Franklin Gothic Heavy Regular";
   src: url("/fonts/franklin-gothic-heavy-regular.woff2") format("woff2");
 }

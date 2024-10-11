@@ -33,7 +33,7 @@ import { SpoilerComponent } from '../spoiler/spoiler.component';
         ></div>
       </div>
       <div class="w-full p-5 rounded-b-xl">
-        <h2 class="text-xl mb-4">{{ crib.address }}</h2>
+        <h3 class="font-clarendon text-xl">{{ crib.address }}</h3>
         <div class="flex justify-between">
           <div class="flex items-end">
             <svg
@@ -55,9 +55,8 @@ import { SpoilerComponent } from '../spoiler/spoiler.component';
       </div>
       <app-spoiler [(showSpoiler)]="showAnswer">
         <p class="text-lg font-bold mb-2">{{ crib.knownFrom }}</p>
-        <a [routerLink]="['/details', crib.id]" class="flex">
+        <a [routerLink]="['/details', crib.id]" class="hover:underline">
           read more
-          <img alt="Arrow" src="/icons/arrow-forward_mat-000-24.svg" />
         </a>
       </app-spoiler>
     </section>
